@@ -84,10 +84,10 @@ El servidor estará disponible en: http://localhost:8000
 O usar un servidor web local:
 ```bash
 cd frontend
-python -m http.server 3000
+npm run dev
 ```
 
-Luego abrir: http://localhost:3000
+Luego abrir: http://localhost:5173
 
 ## Uso del Sistema
 
@@ -150,9 +150,6 @@ El sistema utiliza SQLite con las siguientes tablas principales:
 - Interfaz web funcional
 - API RESTful completa
 
-## Contacto y Soporte
-
-Para soporte técnico o consultas sobre el sistema, contactar al equipo de desarrollo.
 
 ---
 
