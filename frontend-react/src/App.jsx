@@ -4,6 +4,7 @@ import Navbar from './components/common/Navbar';
 import InventarioPage from './pages/InventarioPage';
 import VentasPage from './pages/VentasPage';
 import ProveedoresPage from './pages/ProveedoresPage';
+import RespaldosPage from './pages/RespaldosPage';
 import './App.css';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         return <VentasPage />;
       case 'proveedores':
         return <ProveedoresPage />;
+      case 'respaldos':
+        return <RespaldosPage />;
       default:
         return <InventarioPage />;
     }

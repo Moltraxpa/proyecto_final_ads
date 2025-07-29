@@ -19,6 +19,12 @@ const Navbar = ({ pestanaActiva, cambiarPestana }) => {
       nombre: 'Proveedores', 
       icono: '🏭',
       descripcion: 'Gestión de proveedores y órdenes'
+    },
+    { 
+      id: 'respaldos', 
+      nombre: 'Respaldos', 
+      icono: '🔒',
+      descripcion: 'Sistema de respaldos automáticos'
     }
   ];
 
