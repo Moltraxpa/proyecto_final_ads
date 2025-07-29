@@ -1,7 +1,5 @@
 # Sistema de Gestión - Papelería Dohko
 
-Sistema completo de gestión para la Papelería Dohko, diseñado para automatizar el control de inventario, registro de ventas y gestión de proveedores.
-
 ## Características Principales
 
 ### 🏪 Módulo de Gestión de Inventario
@@ -24,26 +22,14 @@ Sistema completo de gestión para la Papelería Dohko, diseñado para automatiza
 - ✅ Control de facturas
 - ✅ Procesamiento de pagos a proveedores
 
-## Estructura del Proyecto
+### 💾 Módulo de Respaldos Automáticos
+- ✅ **Respaldos automáticos**: Se ejecutan cada mes el día 1 a las 2:00 AM.
+- ✅ **Respaldos manuales**: Pueden ser creados en cualquier momento desde la interfaz.
+- ✅ **Limpieza automática**: Respaldos antiguos (más de 6 meses) se eliminan automáticamente cada 90 días.
+- ✅ **Interfaz web**: Visualización de respaldos disponibles con detalles como fecha y tamaño.
+- ✅ **Seguridad**: Cada respaldo incluye toda la información de productos, ventas, inventario y proveedores.
 
-```
-proyecto_Ads/pro/
-├── backend/                 # API Backend con FastAPI
-│   ├── app/
-│   │   ├── models/         # Modelos de datos (SQLAlchemy)
-│   │   ├── controllers/    # Controladores (API endpoints)
-│   │   ├── schemas/        # Esquemas de validación (Pydantic)
-│   │   ├── services/       # Lógica de negocio
-│   │   └── database.py     # Configuración de base de datos
-│   ├── main.py            # Punto de entrada de la aplicación
-│   └── requirements.txt   # Dependencias Python
-├── frontend/              # Frontend con HTML/CSS/JS
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-└── database/              # Scripts de base de datos
-    └── create_database.py # Script para crear la BD
-```
+---
 
 ## Instalación y Configuración
 
