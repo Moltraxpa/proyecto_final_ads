@@ -34,7 +34,7 @@ proyecto_Ads/pro/
 │   │   ├── controllers/    # Controladores (API endpoints)
 │   │   ├── schemas/        # Esquemas de validación (Pydantic)
 │   │   ├── services/       # Lógica de negocio
-│   │   ├── utils/          # Lógica de negocio (Utilidades Performance)
+│   │   ├── utils/          # Utilidades (Utilidades Performance)
 │   │   └── database.py     # Configuración de base de datos
 │   ├── main.py            # Punto de entrada de la aplicación
 │   └── requirements.txt   # Dependencias Python
